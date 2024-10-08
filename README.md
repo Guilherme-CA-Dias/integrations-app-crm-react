@@ -1,89 +1,40 @@
-# integrations-app-crm-react
+# Integrations App CRM React - Interview Submission
 
-
-# My Integration App
-
-This is a simple React application that integrates with Pipedrive using the `@integration-app/react` library to create contacts.
+This React application was built as part of an interview assignment for Integration.app. It integrates with Pipedrive using the `@integration-app/react` library to create contacts. The app demonstrates a simple contact creation flow, covering fields such as Name, Email, Phone, Company Name, and Pronouns.
 
 ## Prerequisites
 
 - Node.js (v14 or later)
-- npm (comes with Node.js)
+- npm (included with Node.js)
 
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/my-integration-app.git
-   cd my-integration-app
-   ```
+   - `git clone https://github.com/Guilherme-CA-Dias/integrations-app-crm-react.git`
+   - `cd integrations-app-crm-react`
 
 2. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-   - name: `my-integrations-app`
-- version: `0.1.0`
-- private: `true`
-
-### dependencies:
-  - `@integration-app/react`: `^2.0.2`
-  - `@testing-library/jest-dom`: `^5.17.0`
-  - `@testing-library/react`: `^13.4.0`
-  - `@testing-library/user-event`: `^13.5.0`
-  - `dotenv`: `^16.4.5`
-  - `react`: `^18.3.1`
-  - `react-dom`: `^18.3.1`
-  - `react-scripts`: `^5.0.1`
-  - `web-vitals`: `^2.1.4`
-
-### scripts:
-  - `start`: `react-scripts start`
-  - `build`: `react-scripts build`
-  - `test`: `react-scripts test`
-  - `eject`: `react-scripts eject`
-
-### eslintConfig:
-  - extends:
-    - `react-app`
-    - `react-app/jest`
-
-### browserslist:
-  - production:
-    - `>0.2%`
-    - `not dead`
-    - `not op_mini all`
-  - development:
-    - `last 1 chrome version`
-    - `last 1 firefox version`
-    - `last 1 safari version`
-
+   - `npm install`
 
 ## Configuration
 
-Create a `.env` file in the root of your project and add your Integration App token:
+To configure the application, create a `.env` file in the root directory and include your Integration App token:
 
-```env
 REACT_APP_INTEGRATION_APP_TOKEN=your-token-here
-```
+
 
 Replace `your-token-here` with your actual Integration App token.
 
 ## Running the Application
 
-Start the application:
+To start the app, run the following command:
+- `npm start`
 
-```bash
-npm start
-```
-
-This will launch the app in your browser at `http://localhost:3000`.
+This will launch the app at `http://localhost:3000` in your browser.
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Fill out the form with the contact's Name, Email, Phone, and Company.
-3. Click the "Create Contact" button.
-4. If successful, you will see an alert confirming the contact was created. If there's an error, an alert will display the error message.
+1. Navigate to `http://localhost:3000`.
+2. Fill out the form with the contact details (Name, Email, Phone, Company Name, and Pronouns).
+3. Click "Create Contact."
+4. A confirmation message with a CRM link will appear upon successful creation, or an error message if the process fails.
