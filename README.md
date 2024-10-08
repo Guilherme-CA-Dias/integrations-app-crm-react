@@ -24,47 +24,42 @@ This is a simple React application that integrates with Pipedrive using the `@in
    ```bash
    npm install
    ```
-   Dependencies list
-{
-  "name": "my-integrations-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@integration-app/react": "^2.0.2",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "dotenv": "^16.4.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
-}
+   - name: `my-integrations-app`
+- version: `0.1.0`
+- private: `true`
+
+### dependencies:
+  - `@integration-app/react`: `^2.0.2`
+  - `@testing-library/jest-dom`: `^5.17.0`
+  - `@testing-library/react`: `^13.4.0`
+  - `@testing-library/user-event`: `^13.5.0`
+  - `dotenv`: `^16.4.5`
+  - `react`: `^18.3.1`
+  - `react-dom`: `^18.3.1`
+  - `react-scripts`: `^5.0.1`
+  - `web-vitals`: `^2.1.4`
+
+### scripts:
+  - `start`: `react-scripts start`
+  - `build`: `react-scripts build`
+  - `test`: `react-scripts test`
+  - `eject`: `react-scripts eject`
+
+### eslintConfig:
+  - extends:
+    - `react-app`
+    - `react-app/jest`
+
+### browserslist:
+  - production:
+    - `>0.2%`
+    - `not dead`
+    - `not op_mini all`
+  - development:
+    - `last 1 chrome version`
+    - `last 1 firefox version`
+    - `last 1 safari version`
+
 
 ## Configuration
 
